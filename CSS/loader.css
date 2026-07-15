@@ -1,0 +1,22 @@
+.loader{
+    border:16px solid #f3f3f3;
+    border-top:16px solid goldenrod;
+    height:120px;
+    width: 120px;
+    border-radius:50%;
+   
+
+
+    animation:bordercolor 2s linear infinite;
+
+}
+
+@keyframes bordercolor{
+    from{
+        transform:rotate(0deg);
+        
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}

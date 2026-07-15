@@ -1,0 +1,36 @@
+.box{
+    height: 100px;
+    width: 300px;
+    background-color:pink;
+
+    animation:coloralternate,Fontanimation;  /*we can do this to specify multiple properties on a single element or we can directly write multiple properties in from and to in keyframes section */
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0;
+    animation-iteration-count:infinite ;
+    animation-direction: alternate-reverse;
+
+    
+
+
+
+}
+
+@keyframes Fontanimation{
+    from{font-size:20px ; 
+    }
+    to{
+        font-size: 40px;
+    }
+
+ 
+}
+
+@keyframes coloralternate{
+    from{
+        background-color: blue;
+    }
+    to{
+        background-color:red;
+    }
+}

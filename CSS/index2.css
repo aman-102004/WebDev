@@ -1,0 +1,73 @@
+h1{
+    color:#b92b27;
+}
+/* id selector*/
+#login{
+    background-color:white;
+    color:blue;
+}
+/* class selector*/
+.upvote{
+    color:green;
+    background-color:skyblue;
+}
+/* descendant selector*/
+.post a{
+    color:purple;
+    background-color: yellow;
+}
+nav ul li{
+    color:hotpink;
+}
+
+/*Adjacent Sibling Combinator*/
+p+h3{
+    text-decoration: underline;
+}
+
+.upvote+button{
+    background-color:lightblue;
+}
+
+/*Child Combinator*/
+
+div>input{
+    background-color: lightpink;
+}
+
+/*attribute selector*/
+input[type="text"]{
+    color:black;
+}
+input[type="password"]{
+    color:blue;
+}
+
+button:hover{
+    background-color: black;
+    color:white;
+}
+
+h3:hover{
+    text-decoration:none;
+}
+p:active{
+    color:green;
+}
+
+input[type="radio"]:checked + label{
+    color:red;
+    font-weight:bold;
+}
+
+.post:nth-of-type(2n){
+    background-color: bisque;
+}
+
+h1::first-letter{
+    color:green;
+}
+
+p::selection{
+    background-color:yellow;
+}

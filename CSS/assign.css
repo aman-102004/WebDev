@@ -1,0 +1,38 @@
+
+#container{
+    height:500px;
+
+    display: grid;
+    grid-template-columns:repeat(12,1fr);
+    grid-template-rows:repeat(12,1fr);
+    grid-gap: 10px;
+}
+
+.one{
+    grid-column:1/span 12;
+}
+
+.two{
+    grid-column:1/span 3;
+    grid-row:2/span 10;
+}
+.three{
+    
+    grid-column:4/span 6;
+
+
+}
+.four{
+    grid-column:10/span 3;
+    grid-row:2/span 10;
+}
+.five{
+    grid-column:4/span 6;
+    grid-row: 3/span 9;
+}
+.six{
+    grid-column:1/span 12;
+}
+#container div{
+    background-color:rgb(248, 204, 211);
+}

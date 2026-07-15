@@ -1,0 +1,16 @@
+
+import './App.css';
+import Counter from "./Counter.jsx";
+import LikeButton from "./LikeButton.jsx";
+function App() {
+
+  return (
+    <>
+      <h1>States In react</h1>
+      <Counter></Counter>
+      <LikeButton></LikeButton>
+    </>
+  )
+}
+
+export default App
