@@ -64,9 +64,6 @@ body {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
 }
 
 h1,
