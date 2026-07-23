@@ -6,12 +6,15 @@ import './App.css'
 import Form from "./Form"
 import CommentsForm from './CommentsForm'
 import Comments from "./Comments.jsx"
+import Counter from './Counter.jsx'
+import Joker from './Joker.jsx'
 function App() {
-  
-
   return (
     <>
-      <Comments></Comments>
+
+    <Joker></Joker>
+    {/* <Counter></Counter> */}
+      {/* <Comments></Comments> */}
       
     </>
   )
